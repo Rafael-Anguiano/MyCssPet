@@ -1,0 +1,153 @@
+*{
+    display: block;
+    position:fixed;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    background: #252B2E;
+    color:white;
+    width: 100%;
+    bottom:0;
+}
+
+header{
+    background: #282c34;
+    width: 100%;
+    top:0;
+    left: 0;
+    text-align: center;
+    color: white;
+    z-index:99;
+}
+
+main{
+    width:100%;
+    height:100%;
+    background: #2d5097;
+    top:0;
+}
+
+cat-body{
+    background: #df9f57;
+    width: 150px;
+    height: 170px;
+    top:150px;
+    left: 300px;
+    border-radius: 40px;
+}
+
+cat-ear{
+    background: #df9f57;
+    width: 75px;
+    height: 65px;
+    top:115px;
+    left: 300px;
+    clip-path: polygon(0 0, 100% 70%, 100% 100%, 0 100%);
+}
+
+cat-inner-ear{
+    background: #c26f48;
+    width: 75px;
+    height: 60px;
+    top:130px;
+    left: 310px;
+    clip-path: polygon(0 0, 100% 70%, 100% 100%, 0 100%);
+}
+
+cat-eye{
+    background: #665141;
+    width: 25px;
+    height: 25px;
+    top: 180px;
+    left: 340px;
+    border-radius: 50%;
+}
+
+cat-pupil{
+    background: white;
+    width: 12px;
+    height: 12px;
+    top: 185px;
+    left: 340px;
+    border-radius: 50%;
+}
+
+cat-tummy{
+    background: #eed7c1;
+    width: 75px;
+    height: 50px;
+    top: 270px;
+    left: 335px;
+    border-radius: 50% 50% 0 0;
+}
+
+cat-tongue{
+    background: #faa3e4;
+    width: 25px;
+    height: 25px;
+    top: 230px;
+    left: 365px;
+    border-radius: 0 0 50px 50px;
+}
+
+cat-nose{
+    background: #665141;
+    width: 20px;
+    height: 10px;
+    top: 210px;
+    left: 365px;
+    border-radius: 50%;
+    color:#665141;
+}
+
+cat-tail{
+    color:#c26f48;
+    border-radius: 0 50% 50% 0;
+    width: 100px;
+    height: 87px;
+    top: 193px;
+    left: 370px;
+    border: 20px solid;
+    clip-path: polygon(100% 20%, 100% 100%, 0 100%);
+}
+
+.peak{
+    width: 0px;
+    height: 0px;
+    top: 215px;
+    left: 473px;
+    border-radius: 50%;
+    border: 15px solid;
+    clip-path: none;
+}
+
+.right{
+    transform: scaleX(-1);
+    left: 375px;
+}
+
+.r-eye{
+    left: 390px;
+}
+
+.inner{
+    left: 365px
+}
+
+style{
+    background: #252B2E;
+    color:white;
+    width: 100%;
+    bottom:0;
+    top:50%;
+    overflow: scroll;
+}
