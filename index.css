@@ -20,13 +20,19 @@ code {
 }
 
 header{
+    width: 100%;
+    text-align: center;
+    z-index: 99;
+}
+h1{
     background: #282c34;
     width: 100%;
-    top:0;
+    top:-50px;
     left: 0;
-    text-align: center;
     color: white;
-    z-index:99;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 main{
@@ -34,6 +40,10 @@ main{
     height:100%;
     background: #2d5097;
     top:0;
+}
+
+Cat{
+    background: #2d5097;
 }
 
 cat-body{
